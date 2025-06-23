@@ -9,11 +9,14 @@ body {
 h1, h2 {
   text-align: center;
 }
+h2{
+	text-align:center;
+}
 
 /* Playlist styling */
-ul {
-  list-style-type: none;
-  padding: 0;
+
+li{
+	 list-style-type: none;
 }
 
 li a {
@@ -22,7 +25,7 @@ li a {
 
 /* Video player styling */
 .player_one, .player_two {
-  background-color: rgb(225, 225, 255);
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
   margin: 10px auto;
