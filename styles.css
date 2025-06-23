@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+/* General styling */
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading alignment */
+h1, h2 {
+  text-align: center;
+}
+
+/* Playlist styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  text-decoration-line: none;
+}
+
+/* Video player styling */
+.player_one, .player_two {
+  background-color: rgb(225, 225, 255);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: fit-content;
+}
